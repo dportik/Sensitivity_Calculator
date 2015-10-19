@@ -69,6 +69,8 @@ for line in fh_fasta:
     line=line.strip()
     if line.startswith('>'):
         gene_name=line[1:]
+        #*********this script may fail for you here, because of the way your fasta lines are written
+        #Notice the underscores in the above examples, this is key for continuing
         gene_names = gene_name.split('_')
         name = gene_names[3]
         contig_dict[name]=''
