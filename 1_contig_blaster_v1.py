@@ -43,6 +43,7 @@ Hyp_riggenbachi_Contig2871_ENSXETP00000004106_F7	JMPD003_index9_Contig1	97.10	13
 ##############
 DEPENDENCIES:
 numpy - Numerical Python
+blastn - needs to be in path to call from command line
 ##############
 ------------------------
 written for Python 2.7.3
